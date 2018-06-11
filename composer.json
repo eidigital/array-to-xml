@@ -1,12 +1,12 @@
 {
-    "name": "spatie/array-to-xml",
-    "description": "Convert an array to xml",
+    "name": "eidigital/array-to-xml",
+    "description": "Convert an array to xml - forked from spatie/array-to-xml",
     "keywords": [
         "convert",
         "array",
         "xml"
     ],
-    "homepage": "https://github.com/spatie/array-to-xml",
+    "homepage": "https://github.com/eidigital/array-to-xml",
     "license": "MIT",
     "authors": [
         {
@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "php" : "^7.0"
+        "php" : "^5.6"
     },
     "require-dev": {
         "phpunit/phpunit" : "^6.3",
