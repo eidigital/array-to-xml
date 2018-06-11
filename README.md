@@ -1,3 +1,7 @@
+# EI Dev Team Notes
+
+We converted one line of `src/ArrayToXml.php` to stop using the [null coalescing operator](http://php.net/manual/en/migration70.new-features.php) which is specific to PHP 7. We are instead using a plain old ternary operator so we can deploy this library to our PHP 5 based WPEngine install :(
+
 # Convert an array to xml
 
 [![Latest Version](https://img.shields.io/github/release/spatie/array-to-xml.svg?style=flat-square)](https://github.com/spatie/array-to-xml/releases)
